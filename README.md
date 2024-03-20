@@ -33,7 +33,7 @@ Run the script with the desired backup folder and retention parameters. Here's t
 
 ```bash
 python rotate_backups.py <backup_folder> [options]
-
+```
 
 #### Optional Arguments:
 
@@ -48,3 +48,4 @@ python rotate_backups.py <backup_folder> [options]
 
 ```bash
 python rotate_backups.py /path/to/backups --daily_backups 7 --weekly_backups 4 --day_of_week 5 --monthly_backups 12 --yearly_backups --dry_run
+```
