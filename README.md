@@ -17,7 +17,7 @@ The backup rotation script is designed to manage and rotate ArcGIS WebGIS Disast
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/backup-rotation-script.git
+    git@github.com:J-J-E/webgisdr_rotation.git
     ```
 
 ## Usage
