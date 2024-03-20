@@ -1,8 +1,7 @@
 import os
 import argparse
-from datetime import datetime, timedelta
+from datetime import datetime
 import re
-import shutil
 import calendar
 
 def parse_arguments():

@@ -10,8 +10,7 @@ The Backup Rotation Script is a Python script designed to manage and rotate back
 
 ## Requirements
 
-- Python 3.x
-- Required Python packages (listed in `requirements.txt`)
+- Python 3.2+
 
 ## Installation
 
@@ -19,12 +18,6 @@ The Backup Rotation Script is a Python script designed to manage and rotate back
 
     ```bash
     git clone https://github.com/your-username/backup-rotation-script.git
-    ```
-
-2. Install the required Python packages:
-
-    ```bash
-    pip install -r requirements.txt
     ```
 
 ## Usage
