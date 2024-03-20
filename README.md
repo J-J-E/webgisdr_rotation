@@ -1,12 +1,12 @@
 # Backup Rotation Script
 
-The Backup Rotation Script is a Python script designed to manage and rotate backups based on specified retention parameters. It helps you maintain a manageable number of backups while ensuring that you retain backups according to your desired schedule.
+The backup rotation script is designed to manage and rotate ArcGIS WebGIS Disaster Recovery backups based on specified retention parameters. It helps you maintain a manageable number of backups while ensuring that you retain backups according to your desired schedule.
 
 ## Features
 
 - Rotates backups based on daily, weekly, monthly, and yearly retention policies.
-- Supports dry run mode to simulate backup rotation without actually deleting files.
-- Provides detailed output about files to keep and files to delete.
+- Supports dry run mode to simulate backup rotation without actually deleting files. Dry Run Provides detailed output about files to keep and files to delete.
+
 
 ## Requirements
 
