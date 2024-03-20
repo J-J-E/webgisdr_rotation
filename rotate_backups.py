@@ -60,6 +60,7 @@ def rotate_backups(backup_folder, daily_backups_to_keep, weekly_backups_to_keep,
             f.write("\nFiles to Delete (Ordered by Date Descending):\n")
             deleted_files, deleted_size = write_backup_list(f, sorted(set(backups) - set(daily_backups) - set(weekly_backups) - set(monthly_backups) - set(yearly_backups), key=get_backup_date, reverse=True), backup_folder)
             f.write("\n--------------------------------\n\n")
+            f.write("DIRECTORY: {}\n".format(backup_folder))
             f.write("Total size for Daily Backups: {}\n".format(sizeof_fmt(daily_size)))
             f.write("Total size for Weekly Backups: {}\n".format(sizeof_fmt(weekly_size)))
             f.write("Total size for Monthly Backups: {}\n".format(sizeof_fmt(monthly_size)))
