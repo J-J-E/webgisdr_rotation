@@ -35,7 +35,7 @@ python rotate_backups.py <backup_folder> [options]
 - `--day_of_week <day>`: Day of the week for weekly backup (0 for Monday, 1 for Tuesday, ..., 6 for Sunday) (default: 5).
 - `--monthly_backups <count>`: Number of monthly backups to keep (default: 12).
 - `--yearly_backups`: Keep yearly backups indefinitely.
-- `--dry_run`: Perform a dry run without deleting files.
+- `--dry_run`: Perform a dry run without deleting files. Output file located in script directory.
 
 ### Example:
 
